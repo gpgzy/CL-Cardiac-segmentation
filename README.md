@@ -1,5 +1,7 @@
 # Contrastive Learning for Cardiac Segmentation
-Contrastive Learning for Cardiac Structure Segmentation in Echocardiography
+An Improved Contrastive Learning Network for
+Semi-supervised Multi-structure Segmentation
+in Echocardiography
 ## Overview
 This repository provides the method described in the paper
 > Zhaowen Qiu, et al. "An Improved Contrastive Learning Network for
