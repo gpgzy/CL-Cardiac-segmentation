@@ -2,7 +2,9 @@
 Contrastive Learning for Cardiac Structure Segmentation in Echocardiography
 ## Overview
 This repository provides the method described in the paper
-> Zhaowen Qiu, et al. "Contrastive Learning for Cardiac Structure Segmentation in Echocardiography"
+> Zhaowen Qiu, et al. "An Improved Contrastive Learning Network for
+Semi-supervised Multi-structure Segmentation
+in Echocardiography"
 ## Requirements
 The repository is tested on Ubuntu 20.04.6 LTS, Python 3.8, PyTorch 1.13.0 and CUDA 12.0
 ```
