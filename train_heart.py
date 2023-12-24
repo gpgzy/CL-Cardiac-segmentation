@@ -56,7 +56,7 @@ def train(args):
     model = models.CAC(num_classes=4, conf=config['model'],sup_loss=sup_loss, ignore_index=255)
     print(model)
     # stat(DeepLab_v3p(backbone='resnet{}'.format(50)), (3, 512, 512))
-    stat(UNet(3,4), (3, 512, 512))
+    # stat(UNet(3,4), (3, 512, 512))
     # print(sup_loss)
     # 加载预训练好的模型作为初始参数
     # pretrained_dict = torch.load('saved/pretrainedModels/checkpoint.pth')
