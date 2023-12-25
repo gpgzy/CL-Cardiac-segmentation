@@ -8,7 +8,7 @@ from trainer_heart import Trainer
 from utils import Logger
 import torch.multiprocessing as mp
 import torch.distributed as dist
-from torchstat import stat
+# from torchstat import stat
 from models.modeling.deeplab import DeepLab as DeepLab_v3p
 from models.modeling.unet_model import UNet
 
