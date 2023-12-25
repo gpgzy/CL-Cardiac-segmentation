@@ -429,7 +429,7 @@ class  HEARTValidDataset(BaseDataSet):
         #palette 调色
         self.palette = pallete.get_voc_pallete(self.num_classes)
         self.iscut = False
-        self.border = validcut.readlabel()
+        # self.border = validcut.readlabel()
         self.ch = 4
         super(HEARTValidDataset, self).__init__(**kwargs)
 
